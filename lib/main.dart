@@ -10,6 +10,22 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    BottomNavigationBar: BottomNavigationBar(
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1578109960.
+      items: [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.home),
+          label: "Home",
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.search),
+          label: "Search",
+        ),
+
+      ],
+        
+      ],
+    )
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text("lab 06")),
